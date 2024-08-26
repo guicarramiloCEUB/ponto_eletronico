@@ -1,11 +1,18 @@
 const weekDay = document.getElementById("dia-semana")
 const dataAtual = document.getElementById("data-atual")
 const horaAtual = document.getElementById("hora-atual")
+const register_button = document.getElementById("register-button")
+
+
 
 function updateContent(){
     dataAtual.textContent = getCurrentDate();
     horaAtual.textContent = getCurrentTime();
     weekDay.textContent = getWeekDay();
+}
+
+function register(){
+
 }
 
 //retorna hora atual//
